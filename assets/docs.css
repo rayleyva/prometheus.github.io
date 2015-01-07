@@ -1,0 +1,147 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Open Sans', serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+}
+
+.jumbotron {
+  background-color: #e6522c;
+  background-image: url("/assets/jumbotron-background.png");
+  text-align: center;
+}
+
+.jumbotron h1 {
+  color: #fff;
+}
+
+.jumbotron p {
+  color: rgba(255,255,255,0.7);
+}
+
+.jumbotron a.btn {
+  border: none;
+  background-color: rgba(0,0,0,0.15);
+  color: #fff;
+}
+
+.jumbotron a.btn:hover {
+  background-color: rgba(0,0,0,0.25);
+  color: #fff;
+}
+
+a.sc-logo {
+  color: #000;
+  text-decoration: none;
+}
+
+footer p {
+  float: left;
+}
+
+/* Docs-related styles. */
+.side-nav {
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+  background-color: #fafafa;
+}
+
+.side-nav a {
+  color: #333;
+}
+
+.side-nav > li {
+  width: 100%;
+}
+
+.side-nav .nav-header {
+  text-transform: uppercase;
+  padding: 5px 0 5px 0;
+  border-bottom: 2px solid #e6522c;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.side-nav .active {
+  background-color: #eee;
+}
+
+.doc-content {
+  margin-top: 25px;
+}
+
+.doc-content {
+  font-size: 18px;
+}
+
+.doc-content p, .doc-content.ul, .doc-content .alert {
+  margin: 25px 0 25px 0;
+}
+
+.doc-content > h1 {
+  color: #e6522c;
+  text-transform: uppercase;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+  margin: 40px 0 10px 0;
+}
+
+.doc-content > h2 {
+  color: #e6522c;
+  font-size: 25px;
+}
+
+.doc-content > h2 code {
+  color: #e6522c;
+  background: none;
+}
+
+.doc-content > h3 {
+  font-size: 25px;
+}
+
+.doc-content > h4 {
+  font-size: 21px;
+}
+
+pre {
+  font-family: "Courier New", Monaco, Menlo, Consolas, monospace;
+  background-color: #444;
+  color: #f8f8f2;
+}
+
+code {
+  color: #333;
+}
+
+.main p {
+  font-size: 16px;
+  line-height: 1.8em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.main .desc {
+  margin-bottom: 20px;
+}
+
+.main-nav {
+  letter-spacing: 1px;
+  font-family: Avenir, 'Open Sans', serif;
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.jumbotron {
+  padding: 40px 0;
+}
+
+.jumbotron .subtitle {
+  margin-bottom: 20px;
+}
